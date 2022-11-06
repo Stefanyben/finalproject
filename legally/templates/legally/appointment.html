@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="{% static 'legally/appointment.css' %}">
+            <link rel="shortcut icon" href="{% static 'legally/media/icon.png' %}" type="image/x-icon">
+            <link rel="icon" href="{% static 'legally/media/icon.png' %}" type="image/x-icon">
+            <title>Legal.ly - Appointment</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="header">
+                <div class="auto-container">
+                    <div class="logo">
+                        <img src="{% static 'legally/media/1.png' %}" alt="site logo">
+                    </div>
+                    <div class="navbar">
+                        <a href="#"class="btn btn-outline-info" type="button">Log Out</a>
+                        <!-- Navigation tab options -->
+
+                        <a href="{% url 'legally-home' %}">Home</a>
+                        <a href="{% url 'legally-attorneys' %}">Find An Attorney</a>
+                        <a href="{% url 'legally-services' %}">Services</a>
+                    </div>
+                </div>
+            </div>
+            <div class="title-head">
+                <h1> Appointment </h1>
+                <p>Book an appointment</p>
+            </div>
+            <div class="page-wrapper">
+                <form action="#" method="POST">
+                    <div class="bookform-1">
+                        <label for="name" class="bookform-apt-label"> Full Name </label>
+                        <input type="text" name="" id="name" placeholder="Full Name" class="bookform-apt-input"/>
+                    </div>
+                    <div class="bookform-1">
+                        <label for="name" class="bookform-apt-label"> Email Address </label>
+                        <input type="email" name="" id="email" placeholder="Enter your email address" class="bookform-apt-input">
+                    </div>
+                    <div class="flex flex-wrap bookform-2">
+                        <div class="w-full sm:w-half bookform-3">
+                            <div class="bookform-1 w-full">
+                                <label for="date" class="bookform-apt-label">What date is convenient for you? </label>
+                                <input type="date" name="" id="date" class="bookform-apt-input">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-half bookform-3">
+                        <div class="bookform-1">
+                            <label for="time" class="bookform-apt-label">What time is convenient for you? </label>
+                            <input type="time" name="" id="time" class="bookform-apt-input">
+                        </div>
+                    </div>
+                    <div class="bookform-btn">
+                        <a href="{% url 'legally-home' %}" class="btn btn-outline-info" type="button">Book Your Appointment</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

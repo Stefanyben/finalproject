@@ -1,0 +1,262 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.page-wrapper {
+    object-fit: cover;
+}
+
+body {
+    background-image:  url("/static/legally/media/title-head.jpg");
+    margin: 0;
+}
+
+.main {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.main .header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    background-color: #153247;
+}
+
+.row{
+	padding-top: 5%;
+	text-align: center;
+}
+.row .card{
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 500px;
+    display: row;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.row .card-header{
+	line-height:1.2em;
+	letter-spacing: -0.02em;
+	font-family: 'Rufina', serif;
+    color: goldenrod;
+    font-size:20px;
+	background-color: #153247;
+}
+
+.row .btn {
+    background-color: goldenrod;
+    border-radius: 12px;
+}
+
+.main .title-head h1{
+	position:relative;
+	font-weight:normal;
+	background:transparent;
+	line-height:1.2em;
+	letter-spacing: -0.02em;
+	font-family: 'Rufina', serif;
+    color:goldenrod;
+    font-size:50px;
+    text-align:left;
+    padding: 10px 30px;
+}
+/* Nav bar */
+
+a {
+    position:relative;
+	display:inline;
+	text-align:center;
+	font-size:16px;
+	line-height:35px;
+	font-weight:400;
+	text-transform:none;
+	font-family: 'Poppins', sans-serif;
+	opacity:1;
+    margin-right: 50px;
+    padding: 10px
+}
+
+a:link {
+    text-decoration: none;
+    color: bisque;
+}
+a:visited {
+    text-decoration: none;
+    color: bisque;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: none;
+    color: bisque;
+}
+.title-head {
+    background: transparent;
+    padding: 70px 30px;
+}
+
+.list-container1 {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    padding: 10px 10px;
+    top: 50%;
+    display: flex;
+    flex: row!important;
+    justify-content: space-evenly;
+    gap: var(--spacing-1);
+}
+
+.list-container1 .logo {
+    padding: 10px 10px 10px 10px;
+}
+
+.list-container1 .logo img {
+    object-fit:cover;
+    height: 325px;
+    width: 500px;
+    border-radius: 12px;
+}
+
+.list-container1 .list-text {
+    float: right;
+    top: 50%;
+    padding: 10px 30px;
+    margin-top: 0%;
+    text-align: center;
+    color: goldenrod;
+}
+
+.list-container1 .list-text h1 {
+    padding-bottom: 40px;
+}
+
+.list-container1 .list-text p{
+    color:#153247;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    font-family:'Open Sans', 'sans-serif';
+    padding-bottom: 60px;
+}
+
+.list-container1 .list-text .btn {
+    color: goldenrod;
+    background-color: #153247;
+    margin: auto;
+    padding: 10px;
+    width: 40%;
+    border-radius: 12px;
+}
+
+.list-container1 .list-text .btn:hover {
+    color: #153247;
+    background-color: goldenrod;
+    cursor: pointer;
+}
+
+.list-container1 .list-text .btn a{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Rufina', serif;
+}
+
+.list-container2 {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color:#153247;
+    padding: 10px 10px;
+    top: 50%;
+    display: flex;
+    flex: row!important;
+    justify-content: space-evenly;
+    gap: var(--spacing-1);
+}
+
+.list-container2 .list-text {
+    top: 50%;
+    padding: 10px 30px;
+    margin-top: 0%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.list-container2 .list-text h1{
+    color: goldenrod;
+    padding-bottom: 40px;
+}
+
+.list-container2 .list-text p{
+    color: bisque;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: left;
+    font-family:'Open Sans', 'sans-serif';
+    padding-bottom: 60px;
+}
+
+.list-container2 .logo {
+    padding: 10px 10px 10px 10px;
+}
+
+.list-container2.logo img {
+    object-fit:cover;
+    height: 325px;
+    width: 500px;
+    border-radius: 12px;
+}
+
+.list-container2 .list-text .btn {
+    color: #153247;
+    background-color: goldenrod;
+    margin: auto;
+    padding: 10px;
+    border-radius: 12px;
+    width: 50%;
+}
+
+.list-container2 .list-text .btn:hover {
+    color: goldenrod;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.list-container2 .list-text .btn a{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Rufina', serif;
+}
+
+.filter-card {
+    padding: 20px 20px 20px 20px;
+    margin-top: 5%;
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    border-radius: 12px;
+
+}
+
+.filter-card h1{
+    font-size: 25px;
+    font-family: 'Rufina',serif;
+    font-weight: lighter;
+    color: #153247;
+    text-align: center;
+    padding: 10px;
+}
+
+
