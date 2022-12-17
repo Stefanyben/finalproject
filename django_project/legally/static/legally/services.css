@@ -59,15 +59,15 @@ body {
 
 .main .title-head h1{
 	position:relative;
-	font-weight:normal;
 	background:transparent;
 	line-height:1.2em;
 	letter-spacing: -0.02em;
 	font-family: 'Rufina', serif;
-    color:goldenrod;
-    font-size:50px;
-    text-align:left;
-    padding: 10px 30px;
+    color: beige;
+    font-size:80px;
+    text-align:center;
+    font-weight: bold;
+    padding-top: 10px;
 }
 /* Nav bar */
 
@@ -139,7 +139,7 @@ a:active {
 }
 
 .list-container1 .list-text h1 {
-    padding-bottom: 40px;
+    padding-bottom: 25px;
 }
 
 .list-container1 .list-text p{
@@ -148,7 +148,7 @@ a:active {
     font-size: 18px;
     text-align: left;
     font-family:'Open Sans', 'sans-serif';
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
 
 .list-container1 .list-text .btn {
@@ -195,7 +195,7 @@ a:active {
 
 .list-container2 .list-text h1{
     color: goldenrod;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
 }
 
 .list-container2 .list-text p{
@@ -204,7 +204,8 @@ a:active {
     font-size: 18px;
     text-align: left;
     font-family:'Open Sans', 'sans-serif';
-    padding-bottom: 60px;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 
 .list-container2 .logo {

@@ -35,6 +35,7 @@
             </div>
             <div class="page-wrapper">
                 <form action="#" method="POST">
+                    {% csrf_token %}
                     <div class="bookform-1">
                         <label for="name" class="bookform-apt-label"> Full Name </label>
                         <input type="text" name="" id="name" placeholder="Full Name" class="bookform-apt-input"/>
